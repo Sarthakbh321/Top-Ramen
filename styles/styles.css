@@ -2,11 +2,30 @@
 
 .nav-head {
     height: 100vh;
+
+    background-image: url(/img/head-back.jpg);
+    background-size: cover;
+
+}
+
+.nav-head::after {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 80%;
 }
 
 nav {
     font-size: 1.1rem;
     font-family: 'Comfortaa', cursive;
+
+    z-index: 1;
 }
 
 .nav-head nav {
