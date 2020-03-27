@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap');
+
+.nav-head {
+    height: 100vh;
+}
+
+nav {
+    font-size: 1.1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav-head nav {
+    padding: 1% 10%;
+}
+
+.navbar-brand {
+    color: red !important;
+
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+}
+
+nav li {
+    margin: 0 20px;
+}
