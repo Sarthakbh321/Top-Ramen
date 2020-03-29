@@ -12,7 +12,7 @@
 
 .nav-head::after {
     content: "";
-    background-color: black;
+    background-image: linear-gradient(to top, rgba(0, 0,0, 0.6), rgba(0,0,0,1));
     height: 100%;
     width: 100%;
 
@@ -20,7 +20,6 @@
     top: 0;
     left: 0;
 
-    opacity: 80%;
     z-index: 0;
 }
 
@@ -66,8 +65,41 @@ nav li {
     font-weight: bolder;
 }
 
+
+.second-section {
+    width: 100vw;
+    height: 100vh;
+
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.list-head {
+    border-bottom: 5px solid  red;
+    margin: 0 30%;
+    margin-bottom: 10rem;
+
+}
+
 @media screen and (max-width: 450px) {
     .page-head {
         font-size: 3.5rem;
     }
+
+    .list-head {
+        font-size: 2rem;
+    }
 }
+
+.list-item {
+    background-color: lightgray;
+
+    width: 90%;
+    height: 250px;
+
+    border-radius: 10px;
+}
+  
