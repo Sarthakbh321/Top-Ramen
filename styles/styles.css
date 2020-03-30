@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,900|Montserrat:400,700|Comfortaa:700|Lobster&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-head {
     height: 100vh;
 
@@ -174,16 +178,18 @@ nav li {
 }
 
 .brand {
-    margin-bottom: -0.8rem;
+    margin-bottom: -0.1rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 
-    opacity: 80%;
+    opacity: 60%;
 }
 
 .variety {
     font-size: 150%;
-    margin-bottom: -0.8rem;
+    margin-bottom: 0rem;
+
+    line-height: 0.8;
 }
 
 .style {
@@ -191,7 +197,7 @@ nav li {
     font-size: 1.5rem;
     opacity: 80%;
 
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 .country-ranking {
@@ -205,4 +211,19 @@ nav li {
 
 .country, .top-ten {
     font-size: 1.5rem;
+}
+
+.footer {
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    background-color: black;
+    color: white;
+
+    font-family: 'Comfortaa', cursive;
+}
+
+.contact-icon {
+    margin: 20px 10px;
+    color: white;
 }

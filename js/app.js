@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    $(".nav-top").click(function(e) {
+        e.preventDefault();
+
+        $('#second-section').get(0).scrollIntoView();
+    })
+
     $.ajax({
         url: 'data/test.json',
         dataType: 'json',
