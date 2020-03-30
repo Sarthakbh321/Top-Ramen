@@ -31,7 +31,6 @@ nav {
     font-size: 1.1rem;
     font-family: 'Comfortaa', cursive;
 
-
     z-index: 1;
 }
 
@@ -91,7 +90,7 @@ nav li {
 
 .searchbar {
     font-size: 1rem;
-    width: 40%;
+    width: 100%;
     height: 1rem;
     border: none;
     outline: none;
@@ -115,6 +114,21 @@ nav li {
     opacity: .5;
 }
 
+.list-controls {
+    margin-bottom: 2rem;
+}
+
+.sort button {
+    border-radius: 25px;
+    border-color: rgb(235, 235, 235);
+    border-width: 3px;
+
+    background-color: transparent;
+    color: black;
+
+    width: 7rem;
+}
+
 @media screen and (max-width: 450px) {
     .page-head {
         font-size: 3.5rem;
@@ -136,7 +150,7 @@ nav li {
 
     box-shadow: black 0px 0px 20px;
 
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 

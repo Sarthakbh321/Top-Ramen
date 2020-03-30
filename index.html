@@ -42,7 +42,25 @@
     <div class="second-section" id="second-section">
       <div class="container">
         <h3 class="display-4 text-center list-head">Top List</h3>
-        <input type="text" maxlength= "12" placeholder="Search..." class="searchbar">
+        <div class="row list-controls">
+          <div class="col-sm-6">
+            <input type="text" maxlength= "12" placeholder="Search..." class="searchbar">
+          </div>
+          <div class="col-sm-6">
+            <div class="dropdown sort">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Brand</a>
+                <a class="dropdown-item" href="#">Name</a>
+                <a class="dropdown-item" href="#">Style</a>
+                <a class="dropdown-item" href="#">Country</a>
+                <a class="dropdown-item" href="#">Ranking</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="list">
           <!-- AJAX displays elements here -->
         </div>
@@ -57,8 +75,8 @@
       </footer>
     </div>
     
-    <script src="https://kit.fontawesome.com/ae8473c75e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/ae8473c75e.js" crossorigin="anonymous"></script>
 </body>
 </html>
