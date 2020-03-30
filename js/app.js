@@ -6,6 +6,12 @@ $(document).ready(function() {
         $('#second-section').get(0).scrollIntoView();
     })
 
+    $(".nav-home").click(function(e) {
+        e.preventDefault();
+
+        $(".nav-head").get(0).scrollIntoView();
+    })
+
 
     var items = [];
     $.ajax({
