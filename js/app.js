@@ -106,7 +106,7 @@ function sort_by(array, by) {
 function display_items(array) {
     array.forEach(function(item) {
         $(".list").append(`
-            <div class="list-item">
+            <div class="list-item" data-aos="fade-up">
                 <div class="row">
                     <div class="col-sm-4">
                         <img src="img/ramen1.jpg" alt="ramen-image" class="list-image">

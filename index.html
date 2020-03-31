@@ -5,6 +5,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="img/favicon.jpg">
@@ -41,8 +42,10 @@
 
     <div class="second-section" id="second-section">
       <div class="container">
-        <h3 class="display-4 text-center list-head">Top List</h3>
-        <div class="row list-controls">
+        <div data-aos="fade-up">
+          <h3 class="display-4 text-center list-head">Top List</h3>
+        </div>
+        <div class="row list-controls" data-aos="fade-up">
           <div class="col-sm-6">
             <input type="text" maxlength= "12" placeholder="Search..." class="searchbar">
           </div>
@@ -67,7 +70,7 @@
       </div>
     </div>
 
-    <div class="footer text-center">
+    <div class="footer text-center" data-aos="fade-up">
       <footer>
         <a href="https://www.instagram.com/sarthak_bharadwaj_/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
         <a href="https://www.linkedin.com/in/sarthak-bharadwaj-8552b5110/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
@@ -78,5 +81,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
     <script src="https://kit.fontawesome.com/ae8473c75e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
